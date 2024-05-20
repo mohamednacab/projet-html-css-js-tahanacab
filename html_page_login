@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Candy Inscription</title>
+    <link rel="shortcut icon" href="mycandy.png">
+    <link rel="stylesheet" href="Candy_login.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h2>login</h2>
+        <form id="signup-form">
+            <div class="form-group">
+                <label for="username">Email</label>
+                <input type="email" id="signin-email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="signin-password" name="password" required>
+            </div>
+            <div class="show">
+                <input type="checkbox" onclick="showPass()"> Show password
+             </div>
+            <span id="s2"></span>
+            <button onclick="login()" style="color: red;">S'inscrire</button>
+        </form>
+    </div>
+   <script>
+       function showPass(){
+      
+        var passValue = document.getElementById('signin-password');
+            if(passValue.type == 'text'){
+                passValue.type = 'password';
+            }else if(passValue.type == 'password'){
+                passValue.type = 'text';
+             }
+      }
+       
+       
+      
+       var users = [
+           
+            { email: 'taha123@gamil.com', password: 'password12' },
+            { email: 'taha123456@example.com', password: 'password123' }
+        ]
+       function login(){
+            var email = document.getElementById('signin-email').value;
+            var password = document.getElementById('signin-password').value;
+            if(email==''){
+      document.getElementById('s2').innerHTML = "L'email doit être rempli";
+                return false;
+            }else if(password==''){
+    document.getElementById('s2').innerHTML = "Le mot de passe doit être rempli";
+                return false;
+            }
+            for(var i=0;i<users.length;i++){
+     if(email==users[i].email  && password==users[i].password){   
+                        return true;
+                    }
+            }
+document.getElementById('s2').innerHTML = "password and username do not match";
+            return false;
+            }
+
+   </script>
+</body>
+</html>
