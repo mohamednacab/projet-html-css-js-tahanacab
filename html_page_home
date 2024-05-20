@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home_page.css">
+    <link rel="shortcut icon" href="mycandy.png">
+    <title>My Candy_home_page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>MY CANDY</div>
+            <div ><a href="home_page.html">ACCEUIL</a></div>   
+            <div><a href="Candy_page.html">Candy</a></div>
+            <div ><a href="candy_cantact.html">Contact</a></div>
+        </nav>
+         
+    </header>
+    <main>
+        
+        |<h1>Commander vos sucrerie</h1>
+          <h4>abonnez vous a My Candy pour ne pas reter nos prochaines surprises</h4>
+        <button><a href="Candy_page.html">COMMANDER</a></button>
+        <button><a href="Candy_signin.html">SIGN-IN</a></button>
+        <button><a href="Candy_login.html">LOGIN</a></button>
+    </main>
+   
+</body>
+</html>
