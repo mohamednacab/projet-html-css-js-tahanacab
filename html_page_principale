@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Candy_page.css">
+    <link rel="shortcut icon" href="mycandy.png">
+    <title>My Candy_site</title>
+</head>
+<body>
+    <header>
+        
+    <nav>
+        
+      <div class="logo">
+          <img src="mycandy.png" alt="logo">
+      </div>
+       
+      <div class="search-container"></div>
+        <form action="/search" method="GET">
+          <input type="text" placeholder="Rechercher..." name="search">
+          <button type="submit">Rechercher</button>
+         </form>
+       </div>
+      
+       <div> 
+        <ul class="nav-links-right">
+          <li><a href="candy_cantact.html">Contact</a></li>
+        </ul>
+      </div> 
+    
+    </nav>
+     
+     <div class="div1">
+            <ul>
+             <li>
+                <a href="">CANDY</a>
+                <ul class="dropdown">
+                  <li>HARIBO</li>
+                  <li>NERDS</li>
+                  <li>tetes brules</li>
+                </ul>
+              </li>
+             
+             
+              <li>
+                <a href="">CHOCOLAT</a>
+                 <ul class="dropdown">
+                  <li>milka</li>
+                  <li>Lindt</li>
+                  <li>Reese's</li>
+                 
+                 </ul>
+              </li>
+              <li>
+                <a href="">BOISSONS</a>
+                <ul class="dropdown">
+                  <li>chupa chups</li>
+                  <li>PRIME</li>
+                </ul>
+              </li>
+             
+              <li>
+                <a href="">BESTSELLER</a>
+                <ul class="dropdown">
+                  <li>HARIBO</li>
+                  <li>PRIME</li>
+                  <li>tetes brules</li>
+          
+                </ul>
+              </li>
+      
+            </ul>
+          </div>
+   
+   </header>
+   <main>
+    
+
+     <h2>Haribo</h2>
+    <section class="patisseries">
+        <div class="patisserie">
+            <img src="dragebus.jpeg" alt="haribo1">
+            <h3>HARIBO Dragibus</h3>
+            <p>Haribo Dragibus, une explosion de couleurs et de saveurs fruitées qui égaye vos moments gourmands !</p>
+            <p class="price">Prix : 50 DH</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="patisserie">
+          <img src="haribo_bleu.jpeg" alt="haribo1">
+          <h3>HARIBO Dragibus</h3>
+          <p>Laissez la magie opérer avec Haribo Schtroumpfs, les bonbons bleus qui enchantent petits et grands !</p>
+          <p class="price">Prix : 50 DH</p>
+          <button class="add-to-cart">Ajouter au panier</button>
+      </div>
+
+      <div class="patisserie">
+        <img src="haribo_boite1.jpeg" alt="haribo1">
+        <h3>HARIBO Dragibus</h3>
+        <p>Explorez un monde de saveurs avec Haribo World Mix, un voyage gourmand autour de vos bonbons préférés !</p>
+        <p class="price">Prix : 50 DH</p>
+        <button class="add-to-cart">Ajouter au panier</button>
+    </div>
+        
+    </section>
+
+    <h2>Nerds</h2>
+    <section class="patisseries">
+        <div class="patisserie">
+            <img src="nerds.jpeg" alt="NERDS">
+            <h3>NERDS</h3>
+            <p>Découvrez l'éclat des couleurs et la symphonie des saveurs avec Nerds Rainbow, les bonbons acidulés qui illuminent vos papilles </p>
+            <p class="price">Prix : 50 DH</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="patisserie">
+          <img src="nerds grape.jpeg" alt="NERDS">
+          <h3>NERDS</h3>
+          <p>Plongez dans une expérience fruitée et acidulée avec Nerds Grape and Strawberry, où la douceur de la fraise rencontre l'intensité du raisin pour une explosion de saveurs inoubliable !</p>
+          <p class="price">Prix : 50 DH</p>
+          <button class="add-to-cart">Ajouter au panier</button>
+      </div>
+
+      <div class="patisserie">
+        <img src="nerds gummy.jpeg" alt="NERDS">
+        <h3>NERDS</h3>
+        <p>Découvrez la fusion parfaite entre la douceur gélifiée et l'intensité des saveurs avec Nerds Gummy, une expérience gourmande qui vous fera fondre de plaisir à chaque bouchée !</p>
+        <p class="price">Prix : 50 DH</p>
+        <button class="add-to-cart">Ajouter au panier</button>
+    </div>
+       
+    </section>
+
+    <h2>Têtes Brûlées</h2>
+    <section class="patisseries">
+        <div class="patisserie">
+            <img src="tete brules1.jpeg" alt="tetebrules1">
+            <h3>Têtes Brûlées</h3>
+            <p>Plongez au cœur de la jungle avec les Têtes Brûlées Jungle Barres ! Une aventure gourmande où l'intensité des épices rencontre la fraîcheur des fruits exotiques, pour une expérience unique et palpitante à chaque dégustation !</p>
+            <p class="price">Prix : 50 DH</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="patisserie">
+          <img src="tete brules2.jpeg" alt="tetebrules1">
+          <h3>Têtes Brûlées</h3>
+          <p>Sentez le feu avec les Têtes Brûlées Barres de Feu ! Une expérience épicée intense en une bouchée</p>
+          <p class="price">Prix : 50 DH</p>
+          <button class="add-to-cart">Ajouter au panier</button>
+      </div>
+
+      <div class="patisserie">
+        <img src="tete brules 3.jpeg" alt="tetebrules1">
+        <h3>Têtes Brûlées</h3>
+        <p>Double dose d'intensité avec les Têtes Brûlées Double Kiff ! Deux fois plus de feu, deux fois plus de plaisir dans chaque bouchée.</p>
+        <p class="price">Prix : 50 DH</p>
+        <button class="add-to-cart">Ajouter au panier</button>
+    </div>
+
+
+        <!-- Ajoutez ici d'autres produits Têtes Brûlées -->
+    </section>
+
+    <h2>Chocolat</h2>
+    <section class="patisseries">
+        <div class="patisserie">
+            <img src="milka max3.jpeg" alt="milka max 4">
+            <h3>Milka Max 4</h3>
+            <p>
+              Succombez à l'alliance exquise du chocolat fondant et des éclats de fraise juteuse avec Milka MMMAX Fraise ! Une expérience gourmande irrésistible en chaque carré.</p>
+            <p class="price">Prix : 50 DH</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+        <div class="patisserie">
+          <img src="milka max.jpeg" alt="milka max 4">
+          <h3>Milka Max 4</h3>
+          <p>
+            Plongez dans l'extase chocolatée avec Milka MMMAX Oreo ! Une fusion parfaite de chocolat au lait et de morceaux d'Oreo croquants. Un plaisir XXL en chaque carré</p>
+          <p class="price">Prix : 50 DH</p>
+          <button class="add-to-cart">Ajouter au panier</button>
+      </div>
+
+      <div class="patisserie">
+        <img src="milka max2.jpeg" alt="milka max 4">
+        <h3>Milka Max 4</h3>
+        <p>Découvrez la douceur des Alpes dans chaque bouchée avec Milka MMMAX Raisin ! Des éclats de raisin juteux enveloppés dans un tendre chocolat au lait, offrant une expérience gourmande incomparable</p>
+        <p class="price">Prix : 50 DH</p>
+        <button class="add-to-cart">Ajouter au panier</button>
+    </div>
+        <!-- Ajoutez ici d'autres produits chocolatés -->
+    </section>
+    
+    <h2>Lindt</h2>
+    <section class="patisseries">
+        <div class="patisserie">
+            <img src="lindt boite1.jpeg" alt="milka max 4">
+            <h3>lindt</h3>
+            <p>Succombez à l'élégance avec Lindt Champs-Élysées Bleu.</p>
+            <p class="price">Prix : 50 DH</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+        <div class="patisserie">
+          <img src="lindt boite2.jpeg" alt="milka max 4">
+          <h3>lindt/h3>
+          <p>
+            Explorez l'exquis avec Lindt Champs-Élysées d'Or.</p>
+          <p class="price">Prix : 50 DH</p>
+          <button class="add-to-cart">Ajouter au panier</button>
+      </div>
+
+      <div class="patisserie">
+        <img src="lindt boite3.jpeg" alt="milka max 4">
+        <h3>Milka Max 4</h3>
+        <p>Découvrez l'audace avec Lindt Champs-Élysées Noir.</p>
+        <p class="price">Prix : 50 DH</p>
+        <button class="add-to-cart">Ajouter au panier</button>
+    </div>
+        <!-- Ajoutez ici d'autres produits chocolatés -->
+    </section>
+
+    <h2>boisson</h2>
+    <section class="patisseries">
+        <div class="patisserie">
+            <img src="boisson 1.jpeg" alt="milka max 4">
+            <h3></h3>
+            <p></p>
+            <p class="price">Prix : 50 DH</p>
+            <button class="add-to-cart">Ajouter au panier</button>
+        </div>
+        <div class="patisserie">
+          <img src="boisson2.jpeg" alt="milka max 4">
+          <h3>lindt/h3>
+          <p></p>
+          <p class="price">Prix : 50 DH</p>
+          <button class="add-to-cart">Ajouter au panier</button>
+      </div>
+
+      <div class="patisserie">
+        <img src="boisson5.jpeg" alt="milka max 4">
+        <h3>Milka Max 4</h3>
+        <p></p>
+        <p class="price">Prix : 50 DH</p>
+        <button class="add-to-cart">Ajouter au panier</button>
+    </div>
+        
+    </section>
+
+    </main>
+    <footer>
+        <a href="" ><img src="instaa.png" alt="instagram"></a>
+        <a href="" ><img src="facebookk.png" alt="facebook" ></a>
+        <a href="" ><img src="twitterr.png" alt="twitter" ></a>
+        <a href="" ><img src="emaill.png" alt="mail" ></a>
+      
+    </footer>
+    
+</body>
+</html>
