@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Candy Connexion</title>
+    <link rel="shortcut icon" href="mycandy.png">
+    <link rel="stylesheet" href="Candy_signin.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Sign up</h2>
+        <div id="login-form">
+            <div class="form-group">
+                <label for="first-name">Nom</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Prénom</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Vérifier le mot de passe</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <span id ="s1" style="color: red;"></span>
+            <button onclick="add()">Se connecter</button>
+        </div>
+    </div>
+ <script>
+
+
+var users = [{ nom:'ali', prenom:'naciri',email:'ali@gmail.com' , password:'1234ali'} ]
+      function add(){
+
+var nom = document.getElementById('first-name').value;
+var prenom = document.getElementById('last-name').value;
+var email = document.getElementById('email').value;
+var password= document.getElementById('password').value;
+var passwordConfirm= document.getElementById('confirm-password').value;
+
+
+
+if(password.length<8){ document.getElementById('s1').innerHTML = "password must contains 8 characters";
+            
+}else if(password != passwordConfirm){
+    document.getElementById('s1').innerHTML = "le mot de passe est incorrect veuillez inserer le meme mot de passe";
+
+}
+else
+{
+                    var user = {};
+                    user.name = name;
+                    user.prenom = prenom;
+                    user.email = email;
+                    user.password = password;
+                    users.push(user); 
+              
+                    console.log(users)
+            }
+          }
+
+
+ </script>
+</body>
+</html>
